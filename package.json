@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "https://vaishnavskd.github.io/Employee",
+=======
+  "homepage": "https://vaishnavskd.github.io/Employee/dashboard/",
+>>>>>>> 5d34015243a03d1dc60cc7fbb1739e53c707fe4b
   "name": "employee",
   "version": "0.1.0",
   "private": true,
