@@ -6,12 +6,10 @@ import EmployeeData from './elements/EmployeeData';
 
 function App() {
   return (
-    <>
     <Routes>
-      <Route path='/' element={<Dashboard child={<EmployeeData/>}/>}/>
-      <Route path='/form' element={<Dashboard child={<EmployeeForm/>}/>}/>
+      <Route path='/Employee' element={<Dashboard child={<EmployeeData/>}/>}/>
+      <Route path='/AddForm' element={<Dashboard child={<EmployeeForm/>}/>}/>
     </Routes>
-    </>
   );
 }
 

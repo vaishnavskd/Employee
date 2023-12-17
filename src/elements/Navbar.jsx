@@ -16,8 +16,8 @@ const Navbar = () => {
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         Dashboard
                     </Typography>
-                    <Button color="inherit" className='Navbar-Button'><Link to={'/'} style={{ textDecoration: 'none', color: 'white' }}>Home</Link></Button>
-                    <Button color="inherit" className='Navbar-Button'><Link to={'/form'} style={{ textDecoration: 'none', color: 'white' }}>Employee Form</Link></Button>
+                    <Button color="inherit" className='Navbar-Button'><Link to={'/Employee'} style={{ textDecoration: 'none', color: 'white' }}>Home</Link></Button>
+                    <Button color="inherit" className='Navbar-Button'><Link to={'/AddForm'} style={{ textDecoration: 'none', color: 'white' }}>Employee Form</Link></Button>
                 </Toolbar>
             </AppBar>
         </Box>
